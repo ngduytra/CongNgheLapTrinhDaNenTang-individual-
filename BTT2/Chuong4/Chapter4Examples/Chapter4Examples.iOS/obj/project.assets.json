@@ -1,0 +1,189 @@
+{
+  "version": 3,
+  "targets": {
+    "Xamarin.iOS,Version=v1.0": {
+      "Chapter4Examples/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Essentials": "1.2.0",
+          "Xamarin.Forms": "4.2.0.709249",
+          "Xamarin.Forms.Theme.Dark": "1.0.0.43-pre1"
+        },
+        "compile": {
+          "bin/placeholder/Chapter4Examples.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter4Examples.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win": {
+      "Chapter4Examples/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Essentials": "1.2.0",
+          "Xamarin.Forms": "4.2.0.709249",
+          "Xamarin.Forms.Theme.Dark": "1.0.0.43-pre1"
+        },
+        "compile": {
+          "bin/placeholder/Chapter4Examples.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter4Examples.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Chapter4Examples/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Essentials": "1.2.0",
+          "Xamarin.Forms": "4.2.0.709249",
+          "Xamarin.Forms.Theme.Dark": "1.0.0.43-pre1"
+        },
+        "compile": {
+          "bin/placeholder/Chapter4Examples.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter4Examples.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Chapter4Examples/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Essentials": "1.2.0",
+          "Xamarin.Forms": "4.2.0.709249",
+          "Xamarin.Forms.Theme.Dark": "1.0.0.43-pre1"
+        },
+        "compile": {
+          "bin/placeholder/Chapter4Examples.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter4Examples.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Chapter4Examples/1.0.0": {
+      "type": "project",
+      "path": "../Chapter4Examples/Chapter4Examples.csproj",
+      "msbuildProject": "../Chapter4Examples/Chapter4Examples.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "Xamarin.iOS,Version=v1.0": [
+      "Chapter4Examples >= 1.0.0",
+      "Xamarin.Essentials >= 1.2.0",
+      "Xamarin.Forms >= 4.2.0.709249",
+      "Xamarin.Forms.Theme.Dark >= 1.0.0.43-pre1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Tran Quoc Dat\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Mobile\\Chapter4\\Chapter4Examples\\Chapter4Examples.iOS\\Chapter4Examples.iOS.csproj",
+      "projectName": "Chapter4Examples.iOS",
+      "projectPath": "D:\\Mobile\\Chapter4\\Chapter4Examples\\Chapter4Examples.iOS\\Chapter4Examples.iOS.csproj",
+      "packagesPath": "C:\\Users\\Tran Quoc Dat\\.nuget\\packages\\",
+      "outputPath": "D:\\Mobile\\Chapter4\\Chapter4Examples\\Chapter4Examples.iOS\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Tran Quoc Dat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "xamarinios10"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "projectReferences": {
+            "D:\\Mobile\\Chapter4\\Chapter4Examples\\Chapter4Examples\\Chapter4Examples.csproj": {
+              "projectPath": "D:\\Mobile\\Chapter4\\Chapter4Examples\\Chapter4Examples\\Chapter4Examples.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "xamarinios10": {
+        "dependencies": {
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[4.2.0.709249, )"
+          },
+          "Xamarin.Forms.Theme.Dark": {
+            "target": "Package",
+            "version": "[1.0.0.43-pre1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Forms. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Essentials. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Forms.Theme.Dark. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Forms.Theme.Dark",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}

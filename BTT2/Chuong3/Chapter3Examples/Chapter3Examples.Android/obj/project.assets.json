@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "MonoAndroid,Version=v9.0": {
+      "Chapter3Examples/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Essentials": "1.2.0",
+          "Xamarin.Forms": "4.2.0.709249"
+        },
+        "compile": {
+          "bin/placeholder/Chapter3Examples.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter3Examples.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Chapter3Examples/1.0.0": {
+      "type": "project",
+      "path": "../Chapter3Examples/Chapter3Examples.csproj",
+      "msbuildProject": "../Chapter3Examples/Chapter3Examples.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "MonoAndroid,Version=v9.0": [
+      "Chapter3Examples >= 1.0.0",
+      "Xamarin.Android.Support.Core.Utils >= 28.0.0.1",
+      "Xamarin.Essentials >= 1.2.0",
+      "Xamarin.Forms >= 4.2.0.709249"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Tran Quoc Dat\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Mobile\\Chapter3\\Chapter3Examples\\Chapter3Examples.Android\\Chapter3Examples.Android.csproj",
+      "projectName": "Chapter3Examples.Android",
+      "projectPath": "D:\\Mobile\\Chapter3\\Chapter3Examples\\Chapter3Examples.Android\\Chapter3Examples.Android.csproj",
+      "packagesPath": "C:\\Users\\Tran Quoc Dat\\.nuget\\packages\\",
+      "outputPath": "D:\\Mobile\\Chapter3\\Chapter3Examples\\Chapter3Examples.Android\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Tran Quoc Dat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "monoandroid90"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "projectReferences": {
+            "D:\\Mobile\\Chapter3\\Chapter3Examples\\Chapter3Examples\\Chapter3Examples.csproj": {
+              "projectPath": "D:\\Mobile\\Chapter3\\Chapter3Examples\\Chapter3Examples\\Chapter3Examples.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "monoandroid90": {
+        "dependencies": {
+          "Xamarin.Android.Support.Core.Utils": {
+            "target": "Package",
+            "version": "[28.0.0.1, )"
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[4.2.0.709249, )"
+          }
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Forms. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Android.Support.Core.Utils. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Android.Support.Core.Utils",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Essentials. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    }
+  ]
+}

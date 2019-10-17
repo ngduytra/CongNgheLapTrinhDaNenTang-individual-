@@ -1,0 +1,201 @@
+{
+  "version": 3,
+  "targets": {
+    "MonoAndroid,Version=v9.0": {
+      "Chapter1/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "4.1.0.555618"
+        },
+        "compile": {
+          "bin/placeholder/Chapter1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Chapter1/1.0.0": {
+      "type": "project",
+      "path": "../Chapter1Examples/Chapter1.csproj",
+      "msbuildProject": "../Chapter1Examples/Chapter1.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "MonoAndroid,Version=v9.0": [
+      "Chapter1 >= 1.0.0",
+      "Xamarin.Android.Support.Core.Utils >= 28.0.0.1",
+      "Xamarin.Android.Support.CustomTabs >= 28.0.0.1",
+      "Xamarin.Android.Support.Design >= 28.0.0.1",
+      "Xamarin.Android.Support.v4 >= 28.0.0.1",
+      "Xamarin.Android.Support.v7.AppCompat >= 28.0.0.1",
+      "Xamarin.Android.Support.v7.CardView >= 28.0.0.1",
+      "Xamarin.Android.Support.v7.MediaRouter >= 28.0.0.1",
+      "Xamarin.Essentials >= 1.1.0",
+      "Xamarin.Forms >= 4.1.0.555618"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Tran Quoc Dat\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Mobile\\16520206\\BaiTapThucHanh-ThayKhoa\\Chapter1\\Chapter1Examples\\Chapter1Examples.Android\\Chapter1Examples.Android.csproj",
+      "projectName": "Chapter1Examples.Android",
+      "projectPath": "D:\\Mobile\\16520206\\BaiTapThucHanh-ThayKhoa\\Chapter1\\Chapter1Examples\\Chapter1Examples.Android\\Chapter1Examples.Android.csproj",
+      "packagesPath": "C:\\Users\\Tran Quoc Dat\\.nuget\\packages\\",
+      "outputPath": "D:\\Mobile\\16520206\\BaiTapThucHanh-ThayKhoa\\Chapter1\\Chapter1Examples\\Chapter1Examples.Android\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Tran Quoc Dat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "monoandroid90"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "projectReferences": {
+            "D:\\Mobile\\16520206\\BaiTapThucHanh-ThayKhoa\\Chapter1\\Chapter1Examples\\Chapter1Examples\\Chapter1.csproj": {
+              "projectPath": "D:\\Mobile\\16520206\\BaiTapThucHanh-ThayKhoa\\Chapter1\\Chapter1Examples\\Chapter1Examples\\Chapter1.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "monoandroid90": {
+        "dependencies": {
+          "Xamarin.Android.Support.Core.Utils": {
+            "target": "Package",
+            "version": "[28.0.0.1, )"
+          },
+          "Xamarin.Android.Support.CustomTabs": {
+            "target": "Package",
+            "version": "[28.0.0.1, )"
+          },
+          "Xamarin.Android.Support.Design": {
+            "target": "Package",
+            "version": "[28.0.0.1, )"
+          },
+          "Xamarin.Android.Support.v4": {
+            "target": "Package",
+            "version": "[28.0.0.1, )"
+          },
+          "Xamarin.Android.Support.v7.AppCompat": {
+            "target": "Package",
+            "version": "[28.0.0.1, )"
+          },
+          "Xamarin.Android.Support.v7.CardView": {
+            "target": "Package",
+            "version": "[28.0.0.1, )"
+          },
+          "Xamarin.Android.Support.v7.MediaRouter": {
+            "target": "Package",
+            "version": "[28.0.0.1, )"
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[4.1.0.555618, )"
+          }
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Forms. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Android.Support.Design. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Android.Support.Design",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Android.Support.v7.AppCompat. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Android.Support.v7.AppCompat",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Android.Support.v4. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Android.Support.v4",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Android.Support.v7.CardView. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Android.Support.v7.CardView",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Android.Support.v7.MediaRouter. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Android.Support.v7.MediaRouter",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Android.Support.Core.Utils. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Android.Support.Core.Utils",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Android.Support.CustomTabs. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Android.Support.CustomTabs",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Essentials. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    }
+  ]
+}
